@@ -1,10 +1,10 @@
 let boton;
 
-window.onload = init;
+window.onload = inicio;
 
 
-function init(){
-
+function inicio(){
+    realizarPeticion();
 }
 
 function realizarPeticion(){

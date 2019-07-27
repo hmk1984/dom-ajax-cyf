@@ -10,7 +10,7 @@ function inicio(){
 function realizarPeticion(){
     //https://developer.mozilla.org/es/docs/Web/API/Fetch_API/Utilizando_Fetch
     let url_end_point = "https://api.github.com/users/codeyourfuture/repos";
-    fetch('http://example.com/movies.json')
+    fetch(url_end_point)
     .then(function(response) {
         return response.json();
     })
